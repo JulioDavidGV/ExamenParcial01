@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/04/2017, 07:53:13 PM
+    Author     : UPEU
+*/
+
+body{
+    background: lightgray;
+}
+#header1 nav{
+    text-align: center;
+    display: inline-flex;
+    height: auto;
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+#header1 .logo img{
+    text-align: center;
+    display: inline;
+    height: auto;
+    margin: 10px;
+}
+#navigation{
+    text-align: center;
+    display: inline;
+    height: auto;
+    float: right;
+}
+#header1 nav ul .menu{
+    text-align: center;
+    display: inline-flex;
+    height: auto;
+    margin: 10px;
+}
+#header1 nav ul .selected{
+    text-align: center;
+    display: inline;
+    height: auto;
+    margin: 10px;
+}
+.selected a{
+    color: #c43333;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 1.5em;
+}
+.menu a{
+    color: currentColor;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 1.5em;
+}
+.header2{
+    width: 100%;
+    background: darkslategrey;
+    height: auto;
+}
+.header2 img{
+    height: auto;
+    width: 50%;
+    margin: 0 25% 0 25%;
+    
+}
+.body{
+    height: auto;
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+.body div div h1,h2,p {
+    display: block;
+    text-decoration: none;
+    font-family: verdana;
+}
+.body div div h2{
+    color: #bfa020;
+}
+#footer2{
+    background: #bfa020;
+}
+#footer2 div .connect a,p{
+    display: inline-block;
+    width: 50%;
+    margin: 0 25% 0 25%;
+    text-align: center;
+    padding: 5px;
+}
